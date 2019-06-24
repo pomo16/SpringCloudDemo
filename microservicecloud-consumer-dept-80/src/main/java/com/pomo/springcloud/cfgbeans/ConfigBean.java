@@ -18,8 +18,8 @@ public class ConfigBean {
 		return new RestTemplate();
 	}
 	
-	@Bean
-	public IRule myRule(){
-		return new RandomRule(); //显示声明配置，使用随机算法替代默认的轮询算法
-	}
+//	@Bean
+//	public IRule myRule(){
+//		return new RandomRule(); //显示声明配置，使用随机算法替代默认的轮询算法
+//	}
 }
