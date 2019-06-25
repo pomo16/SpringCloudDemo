@@ -1,2 +1,4 @@
 com/pomo/springcloud/service/DeptClientService.class
+com/pomo/springcloud/service/DeptClientServiceFallbackFactory$1.class
+com/pomo/springcloud/service/DeptClientServiceFallbackFactory.class
 com/pomo/springcloud/entities/Dept.class

@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pomo.springcloud.entities.Dept;
 
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
-public interface DeptClientService
-{
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
+public interface DeptClientService {
+	
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
 	public Dept get(@PathVariable("id") long id);
 
