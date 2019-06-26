@@ -103,5 +103,6 @@
 		<module>microservicecloud_config_eureka_7001</module>
 		<module>microservicecloud_config_eureka_client_7001</module>
 		<module>microservicecloud-config-eureka-client-7001</module>
+		<module>microservicecloud-config-dept-client-8001</module>
 	</modules>
 </project>
