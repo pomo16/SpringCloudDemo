@@ -8,4 +8,6 @@ spring:
     config:
       server:
         git:
+          skipSslValidation: true
           uri: https://github.com/pomo16/microservicecloud-config.git
+          
